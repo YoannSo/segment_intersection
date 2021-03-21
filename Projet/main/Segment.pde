@@ -7,7 +7,8 @@ class Segment{
     this.p2 = p2;
   }
   
-  void afficher(){
+  void afficherNoir(){
+    stroke(0);
     line(p1.x, p1.y, p2.x, p2.y);
     //println("Segment:", p1.x, p1.y, p2.x, p2.y);
   }

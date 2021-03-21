@@ -15,11 +15,11 @@ void randomSegments(int nombre){
     Segment s = new Segment(p1, p2);
     fill(0);
     textSize(20);
-    text(i, randomX1, randomY1);
+    //text(i, randomX1, randomY1);
     segments.add(s);
   }
   
-  for ( Segment s : segments){
-    s.afficher();
-  }
+  //for ( Segment s : segments){
+  //  s.afficher();
+  //}
 }
