@@ -29,10 +29,10 @@ void forceBrute(int nbPoints) {
   //println("biggest seg that does not intersetct", distMax);
   //println(answerIndex);
 
-  //for ( int l = 0; l < nbPoints; l++) {
-  //  if (l == answerIndex) segments.get(l).afficherRouge();
-  //  else segments.get(l).afficherNoir();
-  //}
+  for ( int l = 0; l < nbPoints; l++) {
+    if (l == answerIndex) segments.get(l).afficherRouge();
+    else segments.get(l).afficherNoir();
+  }
   
   if(answerIndex == -1) println("All segments intersect !");
 }

@@ -7,7 +7,7 @@ void setup() {
   background(255); //couleur de fond = blanc
   
   int start = millis();
-  forceBrute(10000);
+  forceBrute(10);
   int end =  millis() - start;
   println("Temps (ms):", end);
 }
