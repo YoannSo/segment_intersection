@@ -1,5 +1,6 @@
 //global variables
 ArrayList<Segment> segments = new ArrayList<Segment>();
+ArrayList<Segment> segmentsNotInCollision = new ArrayList<Segment>();
 
 void setup() {
   int nbPoints = 10;
@@ -11,7 +12,7 @@ void setup() {
 
   //result = sweepLine();
   //result1 = forceBrute(0, nbPoints);
-  result2 = divideAndConquer(0, nbPoints);
+  //result2 = divideAndConquer(0, nbPoints);
   //print(result.getLength(), result1.getLength());
   int end =  millis() - start;
   println("Number of segments:", nbPoints);

@@ -1,11 +1,8 @@
 //fonction qui determine le plus grand segment qui n'intersecte aucun autre segment de maniere "brute force"
-ArrayList<Segment> segmentsNotInCollision = new ArrayList<Segment>();
-Segment forceBrute(int start, int end) {
 
-  ArrayList<Segment> noCollision = new ArrayList<Segment>();
+Segment forceBrute(int start, int end) {
   Segment maximum=null;
   boolean intersection ;
-  float distMax = 0;
 
   for ( int i = start; i < end; i ++ ) {
     intersection=false;
