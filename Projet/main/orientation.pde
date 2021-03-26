@@ -6,7 +6,7 @@
 //0: colinear
 //1: clockwise
 //2: counterclockwise
-float orientation(PVector p1, PVector p2, PVector p3){
+float orientation(PVector p1, PVector p2, PVector p3) {
   float val = (p2.y - p1.y) * (p3.x - p2.x) - (p2.x - p1.x) * (p3.y - p2.y);
   if ( val > 0) return 1;
   else if ( val < 0) return 2;
