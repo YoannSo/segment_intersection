@@ -1,4 +1,8 @@
-//fonction qui determine le plus grand segment qui n'intersecte aucun autre segment de maniere "brute force"
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
+
+//Fonction qui determine le plus grand segment qui n'intersecte aucun autre segment de maniere "brute force"
 
 Segment forceBrute(int start, int end) {
   Segment maximum=null;
@@ -12,14 +16,14 @@ Segment forceBrute(int start, int end) {
         intersection=true;
       }
     }
-    if (!intersection){
+    if (!intersection) {
       segmentsNotInCollision.add(segments.get(i));
-    if (maximum==null) {
-      maximum=segments.get(i);
-    } else if (maximum.length<segments.get(i).length) {
-      maximum=segments.get(i);
+      if (maximum==null) {
+        maximum=segments.get(i);
+      } else if (maximum.length<segments.get(i).length) {
+        maximum=segments.get(i);
+      }
     }
-  }
   }
   return maximum;
 }

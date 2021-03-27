@@ -1,3 +1,6 @@
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
 Segment sweepLine() {
   float lowerY;
   float maxLength = 0;

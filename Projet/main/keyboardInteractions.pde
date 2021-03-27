@@ -1,3 +1,7 @@
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
+
 import javax.swing.JOptionPane;
 
 

@@ -1,3 +1,8 @@
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
+
+//LexicalComparison class to allow us to compare our Segments
 import java.util.Collections;
 import java.util.Comparator;
 

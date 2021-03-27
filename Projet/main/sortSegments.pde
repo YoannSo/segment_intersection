@@ -1,3 +1,6 @@
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
 //method that will sort the segments on Y value from top to bottom
 
 void sortSegments(ArrayList<Segment> list) {

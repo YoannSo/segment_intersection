@@ -1,6 +1,11 @@
-//fonction qui determine le plus grand segment qui n'intersecte aucun autre segment de maniere "divide and conquer"
+//Project L3 FST Limoges - Algo 4
+//Contributors: TAYLOR Matt & SOCHAJ Yoann
+
+
+//Fonction qui determine le plus grand segment qui n'intersecte aucun autre segment de maniere "Divide & Conquer"
+
 Segment divideAndConquer(int start, int end) {
-  // Si   y a strictement moins de 4 segments alors il faut faire le brutForce
+  // Si il y a strictement moins de 4 segments alors il faut faire le brutForce
 
   if ((end - start) <= 4) {
     Segment temp= forceBrute(start, end);
