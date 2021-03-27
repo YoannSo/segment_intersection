@@ -12,13 +12,14 @@ Segment forceBrute(int start, int end) {
         intersection=true;
       }
     }
-    if (!intersection)
+    if (!intersection){
       segmentsNotInCollision.add(segments.get(i));
     if (maximum==null) {
       maximum=segments.get(i);
-    } else if (maximum.getLength()<segments.get(i).getLength()) {
+    } else if (maximum.length<segments.get(i).length) {
       maximum=segments.get(i);
     }
+  }
   }
   return maximum;
 }

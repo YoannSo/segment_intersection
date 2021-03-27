@@ -8,7 +8,7 @@ void randomSegments(int nombre) {
   for ( int i = 0; i < nombre; i ++ ) {
     float randomX1, randomY1, randomX2, randomY2;
     randomX1 = random(buffer, width-buffer);
-    randomY1 = random(buffer, height/2-buffer);
+    randomY1 = random(buffer, height-buffer);
     //randomY2 = random(randomY1 + 5, randomY1 + gapY ); //ici on met la borne inferieur a randomY1 pour s'assurer que le prochain point sera plus bas dans l'axe Y
     //randomX2 = random(randomX1 - gapX, randomX1 + gapX);
     randomY2 = random(randomY1 + buffer, height-buffer ); //ici on met la borne inferieur a randomY1 pour s'assurer que le prochain point sera plus bas dans l'axe Y

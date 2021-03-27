@@ -22,17 +22,16 @@ Segment sweepLine() {
       }
     } 
     if (segments.get(posLine).hasIntersection == false) {
-      if (segments.get(posLine).getLength() > maxLength) {
+      if (segments.get(posLine).length > maxLength) {
         if (candidates.size()>0) candidates.remove(0);
         candidates.add(segments.get(posLine));
-        maxLength = segments.get(posLine).getLength();
+        maxLength = segments.get(posLine).length;
       }
     }
     posLine++;
   }
   for (Segment s : candidates) s.afficherRouge(); 
   if (candidates.size() == 0) {
-    println("All the segments intersect");
     return null;
   } else return candidates.get(0);
 }
