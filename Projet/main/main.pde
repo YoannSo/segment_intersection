@@ -23,7 +23,7 @@ void setup() {
     if ((choix<0 || choix >4) || (smallSegments < 1 || smallSegments > 2)) println("Choisissez des options valides"); //si le choix n'est pas valide on lui demande de rechoisir
   }
   if (choix>=1 && choix<5) {
-    nbSegments = 100;
+    nbSegments = 1000000;
     println("Number of segments:", nbSegments, "\n");
     if (smallSegments == 1) choixSegments = 1;
     else choixSegments = 0;
