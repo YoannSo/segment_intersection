@@ -10,7 +10,7 @@ public class LexicalComparison implements Comparator<Segment> {
   public LexicalComparison() {
   }
 
-  public int compare(Segment s1, Segment s2) {
+  public int compare(Segment s1, Segment s2) { // on va comparer les points a l'aide de la coordonnée Y de p1 en effet p1 est le point le plus haut 
     if (s1.p1.y > s2.p1.y) {
       return 1;
     } else if (s1.p1.y < s2.p1.y) {
