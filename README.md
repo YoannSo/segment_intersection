@@ -2,7 +2,7 @@
 
 Algorithmic geometry project by Matt TAYLOR & Yoann SOCHAJ in our third year of Computer Science degree at the F.S.T Limoges (France).
 
-Date: 28/03/2021
+🕙 Date: 28/03/2021
 
 # Problem
 
@@ -26,4 +26,4 @@ Processing: https://processing.org/
 - Yoann SOCHAJ [(GitHub profile)](https://github.com/YoannSo)
 
 >## Useful Links:
->#### Project report: [Géométrie Algorithmique - L3 - TAYLOR - SOCHAJ.pdf](Géométrie%20Algorithmique%20-%20L3%20-%20TAYLOR%20-%20SOCHAJ.pdf)
+Project report: [Géométrie Algorithmique - L3 - TAYLOR - SOCHAJ.pdf](Géométrie%20Algorithmique%20-%20L3%20-%20TAYLOR%20-%20SOCHAJ.pdf)
