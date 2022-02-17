@@ -4,13 +4,15 @@ Algorithmic geometry project by Matt TAYLOR & Yoann SOCHAJ in our third year of 
 
 🕙 Date: 28/03/2021
 
+📚 Class: Géometrie Algorithmique
+
 # Problem
 
 Generate a given number of lines with random sizes and positions.
 
 ➡️ Find the biggest line that doesn't intersect any other lines
 
-⚪ case 1: it exists then color it red
+⚪ case 1: it exists then color it red 🟥
 
 ⚪ case 2: all the lines intersect, tell the user through the console
   
